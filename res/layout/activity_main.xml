@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startbg"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+        <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scoreButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:onClick="playGame"
+        android:text="@string/PLAY"
+        android:textSize="7pt" />
+        
+        <Button
+        android:id="@+id/scoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/exitButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:onClick="highScoreScreen"
+        android:text="@string/HIGHSCORE"
+        android:textSize="7pt" />
+        
+        <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="39dp"
+        android:onClick="exitGame"
+        android:text="@string/exitString"
+        android:textSize="7pt" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DarkStar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="PLAY">PLAY</string>
+    <string name="exitString">EXIT</string>
+    <string name="HIGHSCORE">HIGHSCORE</string>
+
+</resources>
